@@ -23,7 +23,7 @@ into the {body} of the default.hbs template --}}
                 {{plural ../pagination.total empty='No posts' singular='% post' plural='% posts'}} <span class="bull">&bull;</span>
             </div>
             {{#if website}}
-            <a href="{{url}}" class="icon fa-globe" title="Website"><span class="label">Website</span></a>
+            <a href="{{url}}" class="icon fa-globe" title="Website"><span class="label">Сайт</span></a>
             {{/if}}
             {{#if twitter}}
             <a href="{{twitter_url}}" class="icon fa-twitter" title="Twitter"><span class="label">Twitter</span></a>
@@ -50,7 +50,7 @@ into the {body} of the default.hbs template --}}
             {{/if}}
             <p>{{excerpt words="33"}}</p>
             <ul class="actions special">
-                <li><a href="{{url}}" class="button">Full Story</a></li>
+                <li><a href="{{url}}" class="button">Подробнее</a></li>
             </ul>
         </article>
         {{/foreach}}
